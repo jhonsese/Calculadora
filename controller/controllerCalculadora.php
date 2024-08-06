@@ -35,6 +35,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $resultado = $clase->Exponenciación();
     }
 
+    elseif ($operacion === 'porcentaje') {
+        $resultado = $clase->Porcentajes();
+    }
+
 
     if($operacion === 'suma' || $operacion === 'resta ' || $operacion === 'division' || $operacion === 'multiplicacion'){
 

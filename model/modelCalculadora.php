@@ -114,12 +114,35 @@ return array(
         $num2 = is_numeric($this->num2) ? floatval($this->num2): 0;
         
         $exponenciacion = $num1 ** $num2;
-        return $numero_formateado = number_format($exponenciacion, 2, '.', ',');
-        
-        //  echo "Resultado Resta: " . htmlspecialchars($resta);
+      
+    $separadorNumero = number_format($exponenciacion, 0 ,',' , '.');
+
+    return array(
+        'resultado' => $exponenciacion,
+        'separadorNumero' => $separadorNumero
+    );
         
         
         }
+
+
+        public function Porcentajes(){
+
+
+            $num1 = is_numeric($this->num1) ? floatval($this->num1): 0;
+            $num2 = is_numeric($this->num2) ? floatval($this->num2): 0;
+            
+            $porcentajes = $num1 % $num2;
+          
+        $separadorNumero = number_format($porcentajes, 0 ,',' , '.');
+    
+        return array(
+            'resultado' => $porcentajes,
+            'separadorNumero' => $separadorNumero
+        );
+            
+            
+            }
 
 
 

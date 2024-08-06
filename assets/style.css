@@ -283,7 +283,7 @@ input::placeholder, textarea::placeholder {
   /* From Uiverse.io by akshat-patel28 */ 
 .card {
     margin-top: 20px;
-    width: auto;
+    max-width: 90%;
     height: auto;
     background: rgb(17, 4, 134);
     border-radius: 15px;
@@ -300,6 +300,7 @@ input::placeholder, textarea::placeholder {
     padding: 10px;
     align-items: center;
     text-align: center;
+   
   }
   
   .card:hover {
