@@ -50,16 +50,16 @@ require_once '../controller/controllerCalculadora.php';
   <div id="toggleButton" class="button">⬇</div>
     <div id="toggleDiv" class="hidden">
     <div class="buttons-calc">
-<!-- 
+
     <div class="tooltip-container">
   <button type="submit" name="operacion" value="exponenciacion" class="buton sum" >a²</button>
    <div class="tooltip-text">Exponenciación <br> 1) Base <br>2) Exponente</div>
     </div>
   <button type="submit" name="operacion" value="porcentaje" class="buton rest">%</button>
   <button type="submit" name="operacion" value="raiz" class="buton mul">√a</button>
-  <button type="submit" name="operacion" value="logaritmacion" class="buton div">log</button> -->
+  <button type="submit" name="operacion" value="logaritmacion" class="buton div">log</button>
 
-  <p>Proximamente ...</p>
+
 
   </div>
     </div>
