@@ -284,7 +284,7 @@ input::placeholder, textarea::placeholder {
 .card {
     margin-top: 20px;
     width: auto;
-    height: 150px;
+    height: auto;
     background: rgb(17, 4, 134);
     border-radius: 15px;
     box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
